@@ -120,11 +120,18 @@ header{
 
 .login-btn button {
     border: none;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     background-color: rgb(212, 116, 6);
     box-shadow: 0px 3px 10px rgb(104, 70, 32);
-    align-items: right;
+    margin-left: 50px;
+}
+
+.login-btn i{
+    margin-right: 6px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
 }
 
 .login-btn button a {
