@@ -35,7 +35,16 @@ header{
     }
 }
 
-
+.price{
+    cursor: pointer;
+}
+.price:hover{
+    background-color: #292929;
+    background-color:rgb(59, 59, 202);
+    transform: scale(1.5);
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+    
+}
 
 
 #gpu{
@@ -69,6 +78,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+   
 }
 
 .logo{
@@ -107,18 +117,21 @@ header{
 
 }
 
+
 .login-btn button {
     border: none;
-    padding: 20px 5px 20px 5px;
+    padding: 20px;
     border-radius: 10px;
     background-color: rgb(212, 116, 6);
     box-shadow: 0px 3px 10px rgb(104, 70, 32);
+    align-items: right;
 }
 
 .login-btn button a {
 color: white;
 text-decoration: none;
 font-weight: 500px;
+
 
 }
 
@@ -181,7 +194,6 @@ font-weight: 500px;
 }
 
 
-
 .search-bar {
     display: flex;
     align-items: center;
@@ -212,18 +224,6 @@ button:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 main {
     padding: 2rem;
 }
@@ -233,6 +233,7 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 0.5rem;
     margin-top: 20px;
+    
 }
 
 .product-grid {
