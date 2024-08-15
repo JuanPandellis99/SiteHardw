@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ganso Hardwares</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
 </head>
 <body>
+
+
+    
     <header id="topo">
         <nav class="navbar">
             <div class="logo">
@@ -15,7 +19,8 @@
             </div>
 
             <div class="search-bar">
-                <input type="text" placeholder="Pesquisar...">
+                <input id="inputBusca" onkeyup="filtrar()" type="text" placeholder="Pesquisar...">
+
                 <button type="submit">🔍</button>
 
             <nav class="menu">
@@ -55,6 +60,41 @@
 
 
     </header>
+
+
+
+    <ul id="ListaProdutos">
+        <li>
+            <a href="#">
+                <img src="images/61XAtpgr1lL._AC_UF894,1000_QL80_.jpg" width="50px" alt="">
+                <span class="item-name">RTX 3060 ti</span>
+            </a>
+        </li>
+
+        <li><a href="#">
+            <img src="images/61XAtpgr1lL._AC_UF894,1000_QL80_.jpg" width="50px" alt="">
+            <span class="item-name">2070 SUPER</span>
+        </a>
+    </li>
+
+        <li><a href="#">
+            <img src="images/61XAtpgr1lL._AC_UF894,1000_QL80_.jpg" width="50px" alt="">
+            <span class="item-name">GTX 1080 Ti</span>
+        </a>
+    </li>
+
+        <li>
+            <a href="#">
+                <img src="images/61XAtpgr1lL._AC_UF894,1000_QL80_.jpg" width="50px" alt="">
+                <span class="item-name">RX 6500 XT</span>
+            </a>
+        </li>
+    </ul>
+
+
+
+
+
 
     <div class="content">
         <div class="texto-e-logo">
@@ -192,6 +232,8 @@
             <p class="price">R$ 899,99</p>
         </article>
     </section>
+
+
 
 </main>
 </div>

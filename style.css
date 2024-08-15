@@ -159,6 +159,8 @@ font-weight: 500px;
         display: none;
     }
 
+    
+
     .login-btn{
         display: none;
     }
@@ -189,7 +191,6 @@ font-weight: 500px;
 
     .mobile-menu .login-btn button{
         display: block;
-        width: 100%;
 
 
     }
@@ -214,6 +215,55 @@ input[type="text"] {
     margin-right: 5px;
     
 }
+
+
+
+#ListaProdutos {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 16%;
+    margin-left: 165px;
+    display: none;
+    position: absolute;
+    margin-top: 74px;
+    
+}
+
+#ListaProdutos li a {
+
+display: flex;
+align-items: center;
+text-decoration: none;
+font-size: 16px;
+color: #fff;
+border-color: 3px #b45903;
+background-color: #777;
+padding:12px;
+
+}
+
+#ListaProdutos li a:hover{
+    background-color: #b45903;
+}
+
+.search-bar{
+    position: relative;
+}
+
+.item-name{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 button {
     background-color: rgb(212, 116, 6);
@@ -304,7 +354,6 @@ main {
     font-weight: bold;
     color: #e67e22;
 }
-
 
 
 
